@@ -1,4 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
+  "features": {
+    "ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {
+      
+    }
+  }
 }
